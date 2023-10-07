@@ -547,3 +547,134 @@ padding: 8px;
 align-items: flex-start;
 border-radius: 8px;
 }
+* {
+  font-family: 'Poppins', sans-serif;
+} 
+#contact-form{
+  height: 779px;
+  width: 375px;
+  border-top-left-radius: 80px;
+  background-color: #6070FF;
+  overflow: hidden;
+  background-image: url("./contact\ form\ shapes-mobile@2x.svg");
+  background-repeat: no-repeat;
+  background-position: 154px 26px; 
+}
+#contact{
+  margin-top: 103px;
+  text-align: center;
+  color: #FFF;
+text-align: center;
+font-size: 40px;
+font-weight: 700;
+line-height: 52px;
+}
+p{
+margin: 12px 24px 0px 24px;
+color: #EBEBFF;
+text-align: center;
+font-size: 20px;
+font-weight: 400;
+line-height: 28px;
+}
+#name-container{
+  width: 327px;
+  height: 48px;
+  margin-top: 52px;
+  margin-left:22px;
+  border-radius: 8px;
+border: 1px solid  #CFD8DC;
+background:  #FFF;
+}
+#name{
+width: 273px;
+height: 18px;
+color: #172B4D;
+font-size: 17px;
+font-weight: 400;
+line-height: 20px;
+border: none;
+margin: 13px 38px 15px 16px;
+}
+#emailid-container{
+  width: 327px;
+height: 48px;
+margin-top: 20px;
+margin-left:22px;
+border-radius: 8px;
+border: 1px solid  #CFD8DC;
+background: #FFF;
+}
+#emailid{
+  width: 273px;
+height: 18px;
+color: #172B4D;
+font-size: 17px;
+font-weight: 400;
+line-height: 20px;
+border: none;
+margin: 13px 38px 15px 16px;
+}
+#message-container{
+  width: 327px;
+height: 170px;
+margin-top: 20px;
+margin-left: 22px;
+border-radius: 8px;
+border: 1px solid #CFD8DC;
+background: #FFF;
+overflow: hidden;
+}
+#message{
+  width: 273px;
+height: 140px;
+color: #B3BAC5;
+font-size: 15px;
+font-weight: 400;
+border: none;
+line-height: 24px;
+overflow-y: hidden;
+margin: 13px 38px 15px 16px;
+resize: none;
+}
+#submit{
+  margin-top: 22px;
+  margin-left: 22px;
+  display: inline-flex;
+padding: 12px 16px;
+align-items: center;
+border-radius: 8px;
+background: #FFF;
+color: #6070FF;
+text-align: center;
+font-size: 17px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0.51px;
+border: none;
+}
+#line{
+  margin-top: 27px;
+  width: 134px;
+height: 5px;
+flex-shrink: 0;
+border-radius: 10px;
+background:  #0D151E;
+margin-left: 120px;
+}
+#message1{
+  width: 375px;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #6070FF;
+}
+#font-style{
+  font-size: 30px;
+  text-align: center;
+}
+#link{
+margin-left: -22px;
+}
