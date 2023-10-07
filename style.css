@@ -1,4 +1,3 @@
-
 .flex-container {
   display: flex;
   width: 375px;
@@ -547,9 +546,7 @@ padding: 8px;
 align-items: flex-start;
 border-radius: 8px;
 }
-* {
-  font-family: 'Poppins', sans-serif;
-} 
+
 #contact-form{
   height: 779px;
   width: 375px;
